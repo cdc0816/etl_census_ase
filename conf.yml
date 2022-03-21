@@ -1,0 +1,22 @@
+# conf.yml file to be used for ASE data ETL
+
+# Base URL for API
+base_url: "https://api.census.gov/data/2016/ase/csa"
+
+# API parameters
+api_param: "&for=state"
+
+# List the attributes you want to extract
+attr:
+  - NAME
+  - NAICS2012
+  - YIBSZFI
+  - RCPSZFI
+  - EMPSZFI
+
+# List the measures you want to extract
+meas:
+  - EMP
+  - FIRMPDEMP
+  - PAYANN
+  - RCPPDEMP
