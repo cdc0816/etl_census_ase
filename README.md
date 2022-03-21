@@ -1,4 +1,4 @@
-# Simple Python ETL from a REST API
+# Simple Python ETL Using a REST API Data Source
 ## Introduction
 This project demonstrates a simple extract, transform, and load (ETL) process that uses Python, SQL, and YAML configuration to build a data pipeline from the 2016 Annual Survey of Entrepreneurs (ASE) Company Summary REST API. It performs these tasks on both the main dataset and its nested resources, extracting the dataset measures and attributes specified in a YAML configuration file, transforming the data by normalizing and unpivoting JSON objects, and loading the data into a SQLLite relational database. 
 
